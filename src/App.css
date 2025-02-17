@@ -1,0 +1,17 @@
+#secionmentors{
+    background-color: aqua !important;
+}
+.display_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: max-content;
+    gap: 60px;
+}
+@media (width <= 1280px) {
+    .display_flex{
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+    }
+}
