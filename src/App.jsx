@@ -642,9 +642,9 @@ const App = () => {
         <div className="max-w-[1200px] mx-auto px-6 flex flex-wrap justify-between gap-8">
           <div className="w-full lg:w-1/3">
             <img className="w-[200px]" src={logo} alt="" />
-            <p className="mt-2 text-sm">
+            <!-- <p className="mt-2 text-sm">
               Худжанд, 20-й микрорайон, Кохи Матбуот, 11-й этаж
-            </p>
+            </p> -->
           </div>
 
           <div className="w-full sm:w-1/2 lg:w-auto">
