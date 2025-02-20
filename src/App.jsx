@@ -139,7 +139,7 @@ const App = () => {
               <VideoPlayer video={videos} />
             </SwiperSlide>
           </Swiper>
-          <div className="w-[900px] flex flex-wrap  gap-[20px] p-[20px]">
+          <div className="section2">
             <h1 className="text-[white] font-serif sm:text-[28px] md:text-[30px] lg:text-[32px] xl:text-[34px] 2xl:text-[38px]">
               Многолетний опыт
             </h1>
@@ -150,40 +150,39 @@ const App = () => {
               Учитесь у профессионалов, развивайте свои таланты и строите свое
               успешное будущее вместе с Learn IT!
             </p>
-            <div className="w-[90%] flex flex-wrap justify-center gap-[20px]">
-              <div className="sm:w-[280px] md:w-[260px] lg:w-[280px] xl:w-[300px] 2xl:w-[340px] h-[140px] bg-[#444444a3] rounded-[10px] p-[10px] flex flex-col gap-[20px]">
+            <div className="section2-box">
+              <div className="section-elems">
                 <PersonIcon sx={{ color: "white", fontSize: "48px" }} />
                 <p className="text-[18px] font-[600] text-[#8A8A8A]">
                   Сертифицированные учителя
                 </p>
               </div>
-              <div className="sm:w-[280px] md:w-[260px] lg:w-[280px] xl:w-[300px] 2xl:w-[340px] h-[140px] bg-[#444444a3] rounded-[10px] p-[10px] flex flex-col gap-[20px]">
+              <div className="section-elems">
                 <AutoStoriesIcon sx={{ color: "white", fontSize: "48px" }} />
                 <p className="text-[18px] font-[600] text-[#8A8A8A]">
                   80% практики и 20% теории
                 </p>
               </div>
 
-              <div className="sm:w-[280px] md:w-[260px] lg:w-[280px] xl:w-[300px] 2xl:w-[340px] h-[140px] bg-[#444444a3] rounded-[10px] p-[10px] flex flex-col gap-[20px]">
+              <div className="section-elems">
                 <ComputerIcon sx={{ color: "white", fontSize: "48px" }} />
                 <p className="text-[18px] font-[600] text-[#8A8A8A]">
                   Ноутбуки и стабильное интернет-соединение
                 </p>
               </div>
-              <div className="sm:w-[280px] md:w-[260px] lg:w-[280px] xl:w-[300px] 2xl:w-[340px] h-[140px] bg-[#444444a3] rounded-[10px] p-[10px] flex flex-col gap-[20px]">
+              <div className="section-elems">
                 <HistoryEduIcon sx={{ color: "white", fontSize: "48px" }} />
                 <p className="text-[18px] font-[600] text-[#8A8A8A]">
                   Индивидуальный подход к каждому
                 </p>
               </div>
-
-              <div className="sm:w-[280px] md:w-[260px] lg:w-[280px] xl:w-[300px] 2xl:w-[340px] h-[140px] bg-[#444444a3] rounded-[10px] p-[10px] flex flex-col gap-[20px]">
+              <div className="section-elems">
                 <PublicIcon sx={{ color: "white", fontSize: "48px" }} />
                 <p className="text-[18px] font-[600] text-[#8A8A8A]">
                   Регулярные занятия
                 </p>
               </div>
-              <div className="sm:w-[280px] md:w-[260px] lg:w-[280px] xl:w-[300px] 2xl:w-[340px] h-[140px] bg-[#444444a3] rounded-[10px] p-[10px] flex flex-col gap-[20px]">
+              <div className="section-elems">
                 <ExtensionIcon sx={{ color: "white", fontSize: "48px" }} />
                 <p className="text-[18px] font-[600] text-[#8A8A8A]">
                   Творческие уроки
@@ -660,7 +659,7 @@ const App = () => {
           <div className="w-full sm:w-1/2 lg:w-auto">
             <h2 className="text-lg font-semibold mb-4">Наши контакты:</h2>
             <ul className="text-sm space-y-2">
-              <li>learnit_academy@mail.ru</li>
+              <li><a href="#">learnit_academy@mail.ru</a></li>
               <li>+992 (92) 009 1313</li>
             </ul>
           </div>
@@ -668,17 +667,19 @@ const App = () => {
           <div className="w-full sm:w-1/2 lg:w-auto">
             <h2 className="text-lg font-semibold mb-4">Мы в соцсетях:</h2>
             <ul className="text-sm space-y-2">
-              <li href="#">Facebook</li>
+              <a href="https://www.facebook.com/profile.php?id=61560358667207&mibextid=ZbWKwL">Facebook</a>
+              <br />
               <a href="https://www.instagram.com/learn_it_academy.tj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="">Instagram</a>
             </ul>
           </div>
 
-          <div className="w-full sm:w-1/2 lg:w-auto">
+          {/* <div className="w-full sm:w-1/2 lg:w-auto">
             <h2 className="text-lg font-semibold mb-4">Как добраться:</h2>
             <ul className="text-sm space-y-2">
               <li>Схема проезда</li>
+              <a href="https://maps.app.goo.gl/1QRinioGvpgQKEpk8"><li>Кохи Матбуот</li></a>
             </ul>
-          </div>
+          </div> */}
         </div>
       </footer>
     </div>
